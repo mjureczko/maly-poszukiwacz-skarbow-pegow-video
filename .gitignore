@@ -1,0 +1,40 @@
+# =================================
+# Kdenlive
+# =================================
+
+# Cache / proxy / thumbnails
+**/.kdenlive/
+**/kdenlive/
+**/cache/
+**/proxy/
+**/thumbnails/
+
+# Render cache
+**/*.mlt
+**/*.mlt~
+
+# Tmp files
+**/*.lock
+**/*.autosave
+**/*.tmp
+**/*.swp
+
+# Logs
+**/*.log
+
+# =================================
+# Video exports
+# =================================
+**/render/
+**/exports/
+
+# =================================
+# Backups
+# =================================
+**/*.kdenlive.srt
+
+# =================================
+# Tmp files
+# =================================
+.DS_Store
+Thumbs.db
